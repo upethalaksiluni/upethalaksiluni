@@ -186,9 +186,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="output/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="output/snake.svg">
-    <img alt="github contribution grid snake animation" src="output/snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="github/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="github/snake.svg">
+    <img alt="github contribution grid snake animation" src="github/snake.svg">
   </picture>
 </div>
 
@@ -273,4 +273,5 @@
   
   **Thanks for stopping by! Let's connect and build something amazing together! 🚀**
 </div>
+
 
