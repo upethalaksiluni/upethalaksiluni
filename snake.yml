@@ -1,7 +1,7 @@
 name: Generate Snake Animation
 
 on:
-  # run automatically every 24 hours
+  # run automatically every 12 hours
   schedule:
     - cron: "0 */12 * * *" 
   
@@ -18,24 +18,40 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate snake.svg
+      # Checkout the repository
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Generate the snake files in github folder
+      - name: Generate Snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: upethalaksiluni
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
-
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v4.0.0
-        with:
-          target_branch: output
-          build_dir: dist
+            github/snake.svg
+            github/snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Create github directory if it doesn't exist and commit files
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Create github directory if it doesn't exist
+          mkdir -p github
+          
+          # Add the files
+          git add github/snake.svg github/snake-dark.svg
+          
+          # Only commit if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "Update snake animation"
+            git push
+          else
+            echo "No changes to commit"
+          fi
