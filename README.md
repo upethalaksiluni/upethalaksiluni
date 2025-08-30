@@ -19,7 +19,7 @@
 <td align="center" width="200">
 <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="80" alt="Fire">
 <br><b>Pronouns</b>
-<br>He/Him
+<br>Upetha
 </td>
 <td align="center" width="200">
 <img src="https://user-images.githubusercontent.com/74038190/235294019-40007353-6219-4ec5-b661-b3c35136dd0b.gif" width="80" alt="Location">
@@ -273,6 +273,7 @@
   
   **Thanks for stopping by! Let's connect and build something amazing together! 🚀**
 </div>
+
 
 
 
