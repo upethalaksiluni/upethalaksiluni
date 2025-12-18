@@ -51,6 +51,22 @@
 </tr>
 </table>
 
+## 🏅 Certifications
+
+<div align="center">
+  
+<a href="https://www.credly.com/badges/your-badge-id-here" target="_blank">
+  <img src="https://images.credly.com/size/220x220/images/your-badge-image-id.png" width="120" alt="AWS Academy Graduate - Cloud Foundations" />
+</a>
+
+<br>
+
+**AWS Academy Graduate – Cloud Foundations**  
+Issued by Amazon Web Services (AWS) · 20 hours
+
+</div>
+
+
 ### 💬 Ask Me About
 
 <div align="center">
@@ -273,6 +289,7 @@
   
   **Thanks for stopping by! Let's connect and build something amazing together! 🚀**
 </div>
+
 
 
 
