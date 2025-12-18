@@ -56,7 +56,9 @@
 <div align="center">
 
 <a href="https://www.credly.com/badges/d9574599-5671-4f50-b6b3-1fb293defa1e" target="_blank">
-  <img src="YOUR_BADGE_IMAGE_URL" width="140" alt="AWS Academy Graduate – Cloud Foundations" />
+  <img src="https://images.credly.com/size/220x220/images/your-badge-image-id.png"
+       width="120"
+       alt="AWS Academy Graduate - Cloud Foundations" />
 </a>
 
 <br>
@@ -289,6 +291,7 @@ Issued: 18 Dec 2025 · 20 hours
   
   **Thanks for stopping by! Let's connect and build something amazing together! 🚀**
 </div>
+
 
 
 
