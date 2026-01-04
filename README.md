@@ -55,6 +55,8 @@
 <div align="center">
 
 📄 Certification Documents Available
+📄 **Certification Documents**  
+[View Certifications (PDF)](Upetha_Laksiluni_Certifications.pdf)
 
 This repository/profile includes a compiled certifications document covering CPD-certified courses and professional training completed via recognized platforms.
 
@@ -295,6 +297,7 @@ Cloud & DevOps Foundations
   
   **Thanks for stopping by! Let's connect and build something amazing together! 🚀**
 </div>
+
 
 
 
