@@ -51,20 +51,24 @@
 </tr>
 </table>
 
-## 🏅 Certifications
-
+## 🏅 Certifications & Learning Records
 <div align="center">
 
-<a href="https://www.credly.com/badges/d9574599-5671-4f50-b6b3-1fb293defa1e" target="_blank">
-  <img src="https://images.credly.com/size/220x220/images/e3541a0c-dd4a-4820-8052-5001006efc85/blob"
-       width="120"
-       alt="AWS Academy Graduate - Cloud Foundations" />
-</a>
+📄 Certification Documents Available
 
-<br>
+This repository/profile includes a compiled certifications document covering CPD-certified courses and professional training completed via recognized platforms.
 
-**AWS Academy Graduate – Cloud Foundations**  
-Issued: 18 Dec 2025 · 20 hours
+Key Learning Areas:
+
+Linux Fundamentals
+
+Node.js & SQLite Database Development
+
+Generative AI & Large Language Models (LLMs)
+
+Cloud & DevOps Foundations
+
+📎 Full certificates are attached as a document and verifiable via LinkedIn & Credly.
 
 </div>
 
@@ -291,6 +295,7 @@ Issued: 18 Dec 2025 · 20 hours
   
   **Thanks for stopping by! Let's connect and build something amazing together! 🚀**
 </div>
+
 
 
 
