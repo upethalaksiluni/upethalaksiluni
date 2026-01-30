@@ -11,6 +11,25 @@
 ## 🌟 About Me
 
 <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+## 🌐 My Portfolio
+
+<div align="center">
+
+🚀 **Live Portfolio Website**  
+A modern, SEO-optimized portfolio built with **Next.js**, **3D animations**, and advanced UI effects.
+
+🔗 **Visit here:**  
+👉 https://upetha-laksiluni-portfolio.vercel.app
+
+### ✨ Highlights
+- ⚡ Next.js App Router architecture
+- 🧊 Interactive **3D loader (Three.js / React Three Fiber)**
+- 🎬 Smooth animations & motion effects
+- 📈 Full SEO setup (Open Graph, Twitter Cards, Sitemap, JSON-LD)
+- 🔄 Auto-loaded GitHub projects via API
+- 🚀 Deployed on **Vercel**
+
+</div>
 
 ### 🎯 Quick Facts About Me
 
@@ -297,6 +316,7 @@ Cloud & DevOps Foundations
   
   **Thanks for stopping by! Let's connect and build something amazing together! 🚀**
 </div>
+
 
 
 
